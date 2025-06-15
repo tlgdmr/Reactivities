@@ -120,7 +120,6 @@ public class DbInitializer
         };
 
         context.Activities.AddRange(activities);
-
         await context.SaveChangesAsync();
     }
 }
